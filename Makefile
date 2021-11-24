@@ -1,8 +1,3 @@
-#Only use if using Xcode 12+
-#PREFIX=$(THEOS)/toolchain/Xcode.xctoolchain/usr/bin/
-PREFIX=$(THEOS)/toolchain/Xcode11.xctoolchain/usr/bin/
-
-
 export ARCHS = arm64 arm64e
 TARGET = iphone:14.4:13.0
 INSTALL_TARGET_PROCESSES = YouTube
